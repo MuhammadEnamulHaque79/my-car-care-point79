@@ -1,0 +1,13 @@
+.card img{
+    width: 425px;
+    height: 450px;
+    border: 1px solid salmon;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+
+.card-body h5, p{
+    text-align: center;
+}

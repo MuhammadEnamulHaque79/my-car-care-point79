@@ -1,0 +1,13 @@
+.service{
+    border: 1px solid salmon;
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.service img{
+    width: 425px;
+    height: 450px;
+    margin-top: 5px;
+    border: 1px solid salmon;
+    border-radius: 20px;
+}

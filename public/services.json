@@ -1,0 +1,44 @@
+[
+    {"id":1,
+    "name":"Engine Diagnostic",
+    "price":99,
+    "description":"An automobile repair shop is an establishment where automobiles are repaired by auto mechanics and technicians.",
+    "img":"https://i.ibb.co/3SsVpFs/1.png"
+
+    },
+    {"id":2,
+    "name":"Wheel Alignment",
+    "price":129,
+    "description":"An automobile repair shop is an establishment where automobiles are repaired by auto mechanics and technicians.",
+    "img":"https://i.ibb.co/R9HqZ6J/2.png"
+
+    },
+    {"id":3,
+    "name":"oil-change",
+    "price":299,
+    "description":"An automobile repair shop is an establishment where automobiles are repaired by auto mechanics and technicians.",
+    "img":"https://i.ibb.co/GHFfRRt/3.png"
+
+    },
+    {"id":4,
+    "name":"Brake Repairing",
+    "price":119,
+    "description":"An automobile repair shop is an establishment where automobiles are repaired by auto mechanics and technicians.",
+    "img":"https://i.ibb.co/Bjnpvhw/4.png"
+
+    },
+    {"id":5,
+    "name":"Wash and Glassing",
+    "price":90,
+    "description":"An automobile repair shop is an establishment where automobiles are repaired by auto mechanics and technicians.",
+    "img":"https://i.ibb.co/gvGkRwn/5.png"
+
+    },
+    {"id":1,
+    "name":"Complete Analisis",
+    "price":199,
+    "description":"An automobile repair shop is an establishment where automobiles are repaired by auto mechanics and technicians.",
+    "img":"https://i.ibb.co/3SsVpFs/1.png"
+
+    }
+]
