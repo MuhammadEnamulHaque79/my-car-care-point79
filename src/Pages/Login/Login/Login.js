@@ -13,16 +13,23 @@ const Login = () => {
     const navigate=useNavigate();
     const location=useLocation();
     const from = location.state?.from?.pathname || "/";
+    let errorElement;
     const [
         signInWithEmailAndPassword,
         user,
         // loading,
-        // error,
+        error,
       ] = useSignInWithEmailAndPassword(auth);
       if(user){
         // navigate('/');
         navigate(from, { replace: true });
       };
+
+      if (error) {
+        errorElement = <div>
+            <p className='text-danger'>Error: {error?.message}</p>
+        </div>
+    };
     
 
     const handleSubmit=(event)=>{
@@ -55,11 +62,13 @@ const Login = () => {
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
                     <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group>
-                <Button variant="primary" type="submit">
-                    Submit
+                <Button style={{ borderRadius: '20px', text: 'center' }} variant="primary w-50 mx-auto d-block mb-3" type="submit">
+                    Login
                 </Button>
             </Form>
+            {errorElement}
             <p>New to Car Care Point? <Link to="/register" className='text-danger text-decoration-none text-monospace' onClick={navigateToRegister}>Please Register</Link></p>
+            
             <SocialLogin></SocialLogin>
         </div>
     );
