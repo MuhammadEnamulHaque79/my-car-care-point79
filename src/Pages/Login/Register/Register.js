@@ -40,9 +40,11 @@ const Register = () => {
                 <input type="text" placeholder='Your Name' required />
                 <input type="email" name="email" placeholder='Your Email' id="" required/>
                 <input type="password" name="password" placeholder='Password' id="" required/>
-                <input style={{ borderRadius: '20px', text: 'center' }} className='btn btn-primary w-50 d-block mx-auto' type="submit" value="Register" />
+                <input type="checkbox" name="terms" id="terms" />
+                <label style={{marginLeft:'10px'}} htmlFor="terms">Accept Terms and Conditions</label>
+                <input style={{ borderRadius: '20px', text: 'center' }} className='btn btn-primary w-50 d-block mx-auto mt-2' type="submit" value="Register" />
             </form>
-            <p>Already Have an Account into Car Care Point? <Link to="/login" className='text-danger text-decoration-none text-monospace' onClick={navigateToLogin}>Please Login</Link></p>
+            <p>Already Have an Account into Car Care Point? <Link to="/login" className='text-primary text-decoration-none text-monospace' onClick={navigateToLogin}>Please Login</Link></p>
             <SocialLogin></SocialLogin>
         </div>
     );
